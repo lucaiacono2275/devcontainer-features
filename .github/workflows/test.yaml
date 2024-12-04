@@ -13,11 +13,10 @@ jobs:
       matrix:
         features: [
           "coder-cli"
-        ]
-        baseImage:
-        [
+          ]
+        baseImage: [
           "mcr.microsoft.com/devcontainers/base:ubuntu-22.04"
-        ]
+          ]
     steps:
       - uses: actions/checkout@v3
 
