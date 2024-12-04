@@ -1,0 +1,8 @@
+{
+    "name": "Coder CLI",
+    "id": "coder-cli",
+    "version": "0.0.1",
+    "description": "Installs the Coder CLI ",
+    "documentationURL": "https://github.com/lucaiacono2275/devcontainer-features/tree/main/src/coder-cli",
+    "options": { }
+  }
