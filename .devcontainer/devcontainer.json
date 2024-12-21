@@ -1,0 +1,13 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.colorTheme": "Visual Studio Dark"
+      },
+      "extensions": [
+      ]
+    }    
+  },    
+  "postCreateCommand": "npm install -g @devcontainers/cli"
+}
