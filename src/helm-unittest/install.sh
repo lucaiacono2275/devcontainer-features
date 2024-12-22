@@ -8,7 +8,12 @@ if ! type helm > /dev/null 2>&1; then
     exit 1
 fi
 
-helm plugin install https://github.com/helm-unittest/helm-unittest.git
+OPTS=""
+if [ ${VERSION} != "latest" ]; then
+    OPTS="--version v${VERSION}"
+fi
+
+helm plugin install https://github.com/helm-unittest/helm-unittest.git $OPTS
 
 helm plugin ls
 

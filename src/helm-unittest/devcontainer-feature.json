@@ -4,5 +4,15 @@
     "version": "0.0.1",
     "description": "Installs the Helm unittest plugin ",
     "documentationURL": "https://github.com/lucaiacono2275/devcontainer-features/tree/main/src/helm-unittest",
-    "options": { }
+    "options": {
+      "version": {
+          "type": "string",
+          "proposals": [
+              "latest",
+              "0.5.2"
+          ],
+          "default": "0.5.2",
+          "description": "Select or enter a version to install"
+      }
+    }   
   }
