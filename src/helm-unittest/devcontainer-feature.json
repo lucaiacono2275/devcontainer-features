@@ -1,0 +1,8 @@
+{
+    "name": "Helm unittest",
+    "id": "helm-unittest",
+    "version": "0.0.1",
+    "description": "Installs the Helm unittest plugin ",
+    "documentationURL": "https://github.com/lucaiacono2275/devcontainer-features/tree/main/src/helm-unittest",
+    "options": { }
+  }
